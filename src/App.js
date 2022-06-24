@@ -1,5 +1,4 @@
 import './App.css';
-import Button from './Button';
 import Header from './Header';
 
 
@@ -7,8 +6,6 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <Button outline >Кнопка</Button>
-      <Button >123</Button>
       <div className="content">
         <div className="container">
           <div className="content__top">
